@@ -1,7 +1,7 @@
 {
   "name": "react-windowed-select",
-  "version": "3.1.1",
-  "description": "",
+  "version": "3.1.2",
+  "description": "React Select with virtualization (updated to use react-select as peer-dependency)",
   "main": "dist/main.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -25,14 +25,14 @@
     "@types/react-dom": "^17.0.3",
     "@types/react-select": "^4.0.13",
     "@types/react-window": "^1.8.2",
-    "react-select": "^4.3.0",
     "react-window": "^1.8.6"
   },
   "author": "",
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0"
+    "react-dom": "^16.8.0 || ^17.0.0",
+    "react-select": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
@@ -57,6 +57,7 @@
     "ramda": "^0.27.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-select": "4.3.1",
     "react-test-renderer": "^16.14.0",
     "start-server-and-test": "^1.11.7",
     "ts-loader": "^8.0.18",
